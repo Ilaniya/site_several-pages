@@ -1,0 +1,273 @@
+@import url(reset.css);
+body {
+     height: 1000px;
+     background-image: url(images/bg.jpg);
+     position: relative;
+     background-size: 100% 110%;
+     
+}
+
+.word,
+.studentTest {
+     font-weight: normal;
+}
+
+.textLogo {
+     margin: 0;
+     padding: 0;
+     margin-left: 210px;
+     margin-top: 40px;
+     color: white;
+     tab-size: 150%;
+}
+
+.studentTest {
+     margin: 0;
+     padding: 0;
+     margin-left: 210px;
+     margin-top: 5px;
+     color: white;
+}
+
+.headerLinks {
+     width: 150px;
+     position: absolute;
+     top: 40px;
+     left: 1015px;
+}
+
+.headerNav {
+     background-image: url(images/bg_menu.png);
+     width: 950px;
+     height: 50px;
+     margin: 0 auto;
+     margin-top: 20px;
+     display: flex;
+     justify-content: flex-start;
+     align-content: space-around;
+     align-items: center;
+}
+
+.headerNav > a {
+     text-decoration: none;
+     height: 15px;
+     padding: 5px 20px;
+     margin-left: 15px;
+     color: skyblue;
+}
+
+.headerNav > a:hover {
+     background: linear-gradient(#dfcff7 0%, #9f73e7 24%, #580ad6 50%, #8953e1 79%, #ae88ea 100%);
+     border: 1px solid black;
+     border-radius: 7px;
+     color: white;
+}
+
+.active {
+     background: linear-gradient(#dfcff7 0%, #9f73e7 24%, #580ad6 50%, #8953e1 79%, #ae88ea 100%);
+     border: 1px solid black;
+     border-radius: 7px;
+}
+
+
+
+main {
+     width: 65%;
+     background-color: rgb(73, 81, 94);
+     margin: 0 auto;
+     margin-top: 180px;
+     padding: 25px;
+     
+     display: flex;
+     justify-content: space-around;
+
+
+}
+
+.containerLeft {
+     padding: 10px;
+     width: 65%;
+     float: left;
+}
+
+.containerRight {
+     padding: 10px;
+     width: 35%;
+     float: right;
+}
+
+.flashmo {
+     width: 150px;
+     height: 31px;
+     background-image: url(images/flashmo.png);
+     background-repeat: no-repeat;
+     margin-bottom: 15px;
+}
+.flashmo:hover{
+     background-image: url(images/flashmo_hover.png);
+     background-repeat: no-repeat;
+     cursor: pointer;
+}
+.koflash{
+     width: 148px;
+     height: 31px;
+     background-image: url(images/koflash.png);
+     background-repeat: no-repeat;
+     margin-bottom: 15px;
+}
+.koflash:hover{
+     background-image: url(images/koflash_hover.png);
+     background-repeat: no-repeat;
+     cursor: pointer;
+}
+
+.templatemo{
+     width: 226px;
+     height: 40px;
+     background-image: url(images/templatemo.png);
+     background-repeat: no-repeat;
+     margin-bottom: 15px;
+}
+.templatemo:hover{
+     background-image: url(images/templatemo_hover.png);
+     background-repeat: no-repeat;
+     cursor: pointer;
+}
+
+.webdesignmo{
+     width: 261px;
+     height: 40px;
+     background-image: url(images/webdesignmo.png);
+     background-repeat: no-repeat;
+     margin-bottom: 15px;
+}
+.webdesignmo:hover{
+     background-image: url(images/webdesignmo_hover.png);
+     background-repeat: no-repeat;
+     cursor: pointer;
+}
+
+.hrLeft {
+     clear: both;
+     border-color: #676d95;
+     width: 100%;
+}
+
+.hrRight {
+     margin-top: 30px;
+     border-color: #676d77;
+     width: 90%;
+}
+
+.headSection1,
+.headSection2 {
+     color: #4198f4;
+     display: block;
+     font-size: 1.5em;
+     margin-top: 0.83em;
+     margin-bottom: 0.83em;
+     margin-left: 0;
+     margin-right: 0;
+     font-weight: normal;
+     font-stretch: condensed;
+}
+
+.textItalic {
+     text-align: left;
+     font-style: italic;
+     color: white;
+     line-height: 1.5;
+}
+
+
+.apple {
+     margin-top: 15px;
+     width: 100px;
+     border: 8px solid #292b30;
+     margin-right: 15px;
+     float: left;
+}
+
+.textNormal1 {
+     margin-top: 12px;
+     color: #adb0b5;
+     font-size: 14px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     line-height: 1.5;
+     text-align: left;
+
+}
+
+.containerLogo {
+     width: 60%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.columnLeft {
+     margin-top: 25px;
+     width: 40%;
+     padding-right: 50px;
+}
+
+.columnRight {
+     margin-top: 25px;
+     width: 60%;
+}
+
+.flashmo,
+.templatemo {
+     margin-bottom: 25px;
+}
+
+.buttonMoreDetails {
+     display: block;
+     background-image: url(images/btn.png);
+     background-repeat: no-repeat;
+     text-decoration: none;
+     width: 100px;
+     height: 30px;
+     color: #adb0b5;
+     padding: 7px 9px;
+}
+.buttonMoreDetails:hover{
+     background-image: url(images/btn_hover.png);
+     background-repeat: no-repeat;
+}
+
+.bat1 {
+     margin-top: 20px;
+     margin-left: 400px;
+}
+
+.testimonialText {
+     font-style: italic;
+     color: #adb0b5;
+     font-size: 14px;
+     font-weight: normal;
+     letter-spacing: 1px;
+     line-height: 1.5;
+     text-align: left;
+}
+
+.text4 {
+     font-style: italic;
+     color: #adb0b5;
+     line-height: 1.5;
+}
+
+
+.copyright {
+     display: inline-block;
+     margin-left: 475px;
+     margin-top: 10px;
+     color: #292b30;
+}
+
+.wrapper::after {
+     content: "";
+     display: block;
+     clear: both;
+}
